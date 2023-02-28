@@ -6,15 +6,15 @@ color: #ffffff;
 font-family: 'Lato', sans-serif;
 padding: 0;
 margin: 0;
+margin-top: 10%;
+
 }
 
-section {
-  display: grid;
-  place-items: center;
-  align-content: center;
-  min-height: none;
-}
+.request{
+  margin-left: 5%;
+  margin-right: 5%;
 
+}
 nav {
   position: fixed;
   top: 0;
@@ -42,18 +42,16 @@ nav a {
   
 }
 
-.websitetitle{
-  margin-top: 15%;
-  font-size: 5ch;
-
+footer {
+  background-color: #ffffff;
+  text-align: center;
+  width: 100%;
+  color: #000000;
 }
 
-.welcomepic{
-  border-radius: 100px;
-}
-
-section {
-  margin-bottom: 200px;
+footer p {
+  font-size: 14px;
+  color: #000000;
 }
 
 form {
@@ -106,32 +104,4 @@ footer p {
 
 .blogbutton:hover {
   background-color: #0069f27e;
-}
-
-#my-element {
-  display: none; /* Hide the element by default */
-  animation-duration: 1s; /* Set the animation duration */
-}
-
-/* Define the animation */
-@keyframes fade-in-out {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-/* Apply the animation to the element when it is shown or hidden */
-#my-element.show {
-  display: block;
-  animation-name: fade-in-out;
-  animation-fill-mode: forwards; /* Keep the element visible at the end of the animation */
-}
-
-.request{
-  margin-top: 10%;
-}
-
-.UC{
-  margin-top: 10%; 
-  margin-right: 10%;
 }
