@@ -8,13 +8,6 @@ padding: 0;
 margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-  div {
-    background-image: url('Pictures/fastfoodpic.jpeg');
-    background-size: cover;
-  }
-}
-
 section {
   display: grid;
   place-items: center;
@@ -49,11 +42,79 @@ nav a {
 }
 
 .websitetitle{
-  margin-top: 20%;
-  font-size: 8ch;
+  margin-top: 15%;
+  font-size: 5ch;
 
 }
 
 .welcomepic{
   border-radius: 100px;
 }
+
+section {
+  margin-bottom: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+}
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0069f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #0069f27e;
+}
+
+footer {
+  background-color: #ffffff;
+  text-align: center;
+  width: 100%;
+  color: #000000;
+}
+
+footer p {
+  font-size: 14px;
+  color: #000000;
+}
+
+.blogbutton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0069f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.blogbutton:hover {
+  background-color: #0069f27e;
+}
+
